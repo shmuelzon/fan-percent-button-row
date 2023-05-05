@@ -1,0 +1,27 @@
+{
+  "name": "fan-percent-button-row",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Home Assistant Lovelace plugin for Fans",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:shmuelzon/fan-percent-button-row"
+  },
+  "keywords": [],
+  "author": "Assaf Inbal",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "rollup": "^3.20.2"
+  },
+  "dependencies": {
+    "lit": "^2.7.4"
+  }
+}
